@@ -24,6 +24,7 @@ namespace AnimalProject
         //}
 
         // Add one copy of static member
+        // All animal belong to one owner
         public static string owner = "Tom";
         public string Name { get; set; }
         public int Age { get; set; }
