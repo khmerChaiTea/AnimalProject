@@ -17,6 +17,11 @@ namespace AnimalProject
             age = 0;
         }
 
+        public Animal(string name, int age)
+        {
+            this.name = name;
+            this.age = age;
+        }
 
     }
 }
