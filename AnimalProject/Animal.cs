@@ -22,6 +22,9 @@ namespace AnimalProject
         //    this.name = name;
         //    this.age = age;
         //}
+
+        // Add one copy of static member
+        public static string owner = "Tom";
         public string Name { get; set; }
         public int Age { get; set; }
 

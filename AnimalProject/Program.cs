@@ -13,10 +13,10 @@ namespace AnimalProject
             var t1 = new Animal();
             t1.Name = "Test";
             t1.Age = 1;
-            Console.WriteLine($"Name: {t1.Name}, Age: {t1.Age}");
+            Console.WriteLine($"Name: {t1.Name}, Age: {t1.Age}, Owner: {Animal.owner}");
 
             var t2 = new Animal { Name="Test2", Age=5 };
-            Console.WriteLine($"Name: {t2.Name}, Age: {t2.Age}");
+            Console.WriteLine($"Name: {t2.Name}, Age: {t2.Age},  Owner: {Animal.owner}");
         }
     }
 }
