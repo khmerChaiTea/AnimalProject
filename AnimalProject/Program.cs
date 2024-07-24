@@ -22,6 +22,10 @@ namespace AnimalProject
             var t3 = new Mammal();
             t3.Move();
             Console.WriteLine(t3);
+
+            var t4 = new Bird();
+            t4.Move();
+            Console.WriteLine(t4);
         }
     }
 }

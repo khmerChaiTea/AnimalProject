@@ -12,9 +12,10 @@ namespace AnimalProject
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public void Move()
+        // Need to be virtual/abstract to override 
+        public virtual void Move()
         {
-            Console.WriteLine("Mammal is moving!");
+            Console.WriteLine($"I'm moving!");
         }
 
         public override string ToString()
