@@ -8,26 +8,14 @@ namespace AnimalProject
 {
     internal class Animal
     {
-        //public string name;
-        //public int age;
-
-        //public Animal()
-        //{
-        //    name = string.Empty; // ""
-        //    age = 0;
-        //}
-
-        //public Animal(string name, int age)
-        //{
-        //    this.name = name;
-        //    this.age = age;
-        //}
-
-        // Add one copy of static member
-        // All animal belong to one owner
         public static string owner = "Tom";
         public string Name { get; set; }
         public int Age { get; set; }
+
+        public void DisplayAnimal()
+        {
+            Console.WriteLine($"Name: {this.Name}, Age: {this.Age}, Owner: {Animal.owner}");
+        }
 
     }
 }
