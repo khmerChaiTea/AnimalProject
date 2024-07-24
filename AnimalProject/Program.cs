@@ -16,7 +16,9 @@ namespace AnimalProject
             t1.DisplayAnimal();
 
             var t2 = new Animal { Name="Test2", Age=5 };
-            t2.DisplayAnimal();
+            //t2.DisplayAnimal();
+            //Console.WriteLine(t2.ToString());
+            Console.WriteLine(t2);
         }
     }
 }
