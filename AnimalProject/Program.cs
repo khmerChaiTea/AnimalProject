@@ -13,12 +13,14 @@ namespace AnimalProject
             var t1 = new Animal();
             t1.Name = "Test";
             t1.Age = 1;
-            t1.DisplayAnimal();
+            Console.WriteLine(t1);
 
             var t2 = new Animal { Name="Test2", Age=5 };
-            //t2.DisplayAnimal();
-            //Console.WriteLine(t2.ToString());
             Console.WriteLine(t2);
+
+            var t3 = new Mammal();
+            t3.Move();
+            Console.WriteLine(t3);
         }
     }
 }
