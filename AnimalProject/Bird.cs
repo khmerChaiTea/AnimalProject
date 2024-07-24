@@ -13,6 +13,7 @@ namespace AnimalProject
             return base.ToString() + "\nI'm bird";
         }
 
+        // Polymorphism - changing moving to flying
         public override void Move()
         {
             Console.WriteLine("I'm Flying.");
