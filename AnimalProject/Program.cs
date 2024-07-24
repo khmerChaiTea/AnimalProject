@@ -17,6 +17,7 @@ namespace AnimalProject
 
             var t2 = new Animal { Name="Test2", Age=5 };
             Console.WriteLine(t2);
+            t2.Move();
 
             var t3 = new Mammal();
             t3.Move();

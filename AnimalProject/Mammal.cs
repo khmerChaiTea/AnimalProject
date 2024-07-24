@@ -9,11 +9,6 @@ namespace AnimalProject
     // Inherit
     internal class Mammal : Animal
     {
-        public void Move()
-        {
-            Console.WriteLine("Mammal is moving!");
-        }
-
         public override string ToString()
         {
             return base.ToString() + "\nI'm mammal";

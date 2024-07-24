@@ -12,14 +12,13 @@ namespace AnimalProject
         public string Name { get; set; }
         public int Age { get; set; }
 
-        //public void DisplayAnimal()
-        //{
-        //    Console.WriteLine($"Name: {this.Name}, Age: {this.Age}, Owner: {Animal.owner}");
-        //}
+        public void Move()
+        {
+            Console.WriteLine("Mammal is moving!");
+        }
 
         public override string ToString()
         {
-            //return base.ToString();
             return $"Name: {this.Name}, Age: {this.Age}, Owner: {Animal.owner}";
         }
     }
